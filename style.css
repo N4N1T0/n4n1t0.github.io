@@ -1,0 +1,136 @@
+body {
+    position: absolute;
+    width: 100vh; 
+    height: 100vh;
+    background: linear-gradient(246.89deg, #FFFFFF 0.52%, rgba(217, 217, 217, 0) 98.89%);
+    color: #000000;
+}
+
+.container {
+    width: 1300px;
+    height: 100%;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 50px;
+    top: 18px;
+}
+
+.main {
+    position: absolute;
+    width: 543px;
+    height: 454px;
+    left: 50px;
+    top: 150px;
+}
+
+.main h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0%;
+}
+
+.main span {
+    color: #FED700;
+    font-size: 55px;
+}
+
+.main p {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+.shape {
+    position: fixed;
+    width: 1000px;
+    height: 1000px;
+    left: 650px;
+    top: -163px;
+    background: linear-gradient(180deg, #FED700 0%, #FFDB3F 100%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#woman {
+    position: absolute;
+    width: auto;
+    height: 635px;
+    left: 750px;
+    top: -10px;
+    margin: 0;
+    display: block;
+}
+
+#box {
+    position: absolute;
+    width: auto;
+    height: 450px;
+    left: 1020px;
+    top: 80px;
+    margin: 0;
+    padding: 0;
+    display: none;
+    opacity: 0;
+}
+
+#bg {
+    position: absolute;
+    width: auto;
+    height: 550px;
+    left: 1020px;
+    top: -15px;
+    margin: 0;
+    padding: 0;
+    display: none;
+    opacity: 0;
+}
+
+.footer {
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 13px;
+    top: 85%;
+    left: 10px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.footer li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 105px;
+    
+}
+
+.footer button {
+    font-family: "Poppins";
+    background-color: white;
+    border: 1;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color: #FED700;
+}
+
+.footer button:hover {
+    background: #FED700;
+    color: white;
+}
+
+.footer button:active {
+    background-color: #000000;
+    border: 0;
+}
